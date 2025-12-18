@@ -1,0 +1,60 @@
+body {
+    background: #121212;
+    color: rgb(17, 17, 17);
+    font-family: Arial;
+    text-align: center;
+    padding-top: 70px;
+}
+h1 {
+    color: #ffffff;
+}
+ .pagina-gerador h2 {
+    color: rgb(255, 255, 255);
+
+}
+.pagina-gerador  {
+    background-color: rgb(78, 78, 78) 
+}
+.pagina-gerador p {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#resultado {
+    background: #ffffff;
+    margin: 30px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+.barra-f1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000000; /* vermelho F1 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    z-index: 1000;
+}
+
+.barra-f1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.barra-f1 a:hover {
+    text-decoration: underline;
+}
